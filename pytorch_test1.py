@@ -9,9 +9,9 @@ from pprint import pprint
 
 
 # data dir
-train_addr = "./sentiment-analysis-on-movie-reviews/train.tsv"
+train_addr = "./database/sentiment-analysis-on-movie-reviews/train.tsv"
 # embeddings folder 
-test_addr = "./sentiment-analysis-on-movie-reviews/test.tsv"
+test_addr = "./database/sentiment-analysis-on-movie-reviews/test.tsv"
 
 def readfile(filename,filetype,word2idx = {}):
     idx2word = {}
